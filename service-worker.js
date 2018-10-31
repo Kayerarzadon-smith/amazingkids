@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/amazingkids/precache-manifest.ae05ecf41dffedbf8b5b917a4ddc4cf2.js"
+  "/amazingkids/precache-manifest.6c128da9f06d54f724d8b5d72437673d.js"
 );
 
 workbox.clientsClaim();

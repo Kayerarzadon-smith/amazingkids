@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/amazingkids/static/media/infant500.e93deaba.jpg"
   },
   {
-    "revision": "b78e235b71ee8421ea3eed9a25a0236a",
-    "url": "/amazingkids/static/media/toddlerPic375.b78e235b.jpg"
-  },
-  {
     "revision": "8328fac3c30d7cf7be2bc28ba980ed7b",
     "url": "/amazingkids/static/media/toddler414.8328fac3.jpg"
+  },
+  {
+    "revision": "b78e235b71ee8421ea3eed9a25a0236a",
+    "url": "/amazingkids/static/media/toddlerPic375.b78e235b.jpg"
   },
   {
     "revision": "b7dd4c4ea89573ba60b97c9ba32ae0c8",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "url": "/amazingkids/static/media/toddler500.d7175a4b.jpg"
   },
   {
-    "revision": "f12640d9f42911b3bc19a59656345c44",
-    "url": "/amazingkids/static/media/preKPic375.f12640d9.jpg"
-  },
-  {
     "revision": "e0d7c85ef10a4d896dce7e460776f2cf",
     "url": "/amazingkids/static/media/preK414.e0d7c85e.jpg"
+  },
+  {
+    "revision": "f12640d9f42911b3bc19a59656345c44",
+    "url": "/amazingkids/static/media/preKPic375.f12640d9.jpg"
   },
   {
     "revision": "acd26e0a3f3e7a934a0b83dd495889f3",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/amazingkids/static/media/kinderPrep500.282640dd.jpg"
   },
   {
-    "revision": "bb60b81d520b21bb11875374331c20a6",
+    "revision": "521f4eefa75182ab5529c7469e8e109e",
     "url": "/amazingkids/index.html"
   }
 ];
