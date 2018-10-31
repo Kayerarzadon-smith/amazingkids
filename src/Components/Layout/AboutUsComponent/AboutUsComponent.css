@@ -1,0 +1,178 @@
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  *//* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+/* A B O U T  U S  C O M P O N E N T  */
+.aboutUsComponent {
+    width:100%;
+    height: auto;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: #1d0054a6;
+    vertical-align: bottom;
+}
+.aboutUsComponent p{
+    width:95%;
+    height:auto;
+    padding-bottom: 20px;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: gray;
+    vertical-align: bottom;
+    font-family: Montserrat, Arial,sans-serif;
+}
+.aboutUsWrapper {
+    display: inline-block;
+    width:50%;
+}
+.aboutUsTextWrapper{
+    /* margin-top: 45px; */
+    padding:15px;
+    width:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#aboutUsHeader {
+    margin-right: auto;
+    margin-left: auto;
+    bottom:0;
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    color: rgb(60, 143, 0);
+    display: block;
+    text-align: center;
+    font-family: Montserrat,Arial,sans-serif;
+}
+#aboutUsHeader h1{
+    font-family: Montserrat,Arial,sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.backdropSlide {
+    background-position: center;
+    background-size: 100%;
+    width: 50%;
+    height:500px;
+    float: right;
+    background: linear-gradient(to right,whitesmoke, transparent 50%),  url("./amazingKidsMain.jpg") no-repeat
+}
+@media screen and (max-width: 1366px) {
+    .aboutUsWrapper {
+        display: inline-block;
+        width:50%;
+        height: auto
+    }
+    .backdropSlide {
+        background-position: center;
+        background-size: 100%;
+        width: 50%;
+        height:500px;
+        float: right;
+        background: linear-gradient(to right,whitesmoke, transparent 50%),  url("./amazingKidsMain.jpg") no-repeat;
+    }  
+}
+@media screen and (max-width: 1024px) {
+    .aboutUsWrapper {
+        display: inline-block;
+        width:50%;
+        height: auto
+    }
+    .backdropSlide {
+        background-position: center;
+        background-size: 100%;
+        width: 50%;
+        height:500px;
+        float: right;
+        background: linear-gradient(to right,whitesmoke, transparent 50%),  url("./amazingKids500.jpg") no-repeat;
+    } 
+    .aboutUsTextWrapper{
+        margin-top: 0px;
+        padding:15px;
+        padding-bottom:0px;
+        width:auto;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+    .aboutUsWrapper p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutUsWrapper {
+        display: inline-block;
+        width:45%;
+        height: auto
+    }
+    .backdropSlide {
+        background-position: center;
+        background-size: 100%;
+        width: 55%;
+        height:500px;
+        float: right;
+        background: linear-gradient(to right,whitesmoke, transparent 50%), url("./amazingKids500.jpg") no-repeat;
+    }
+    .aboutUsWrapper p{
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 823px) {
+        .aboutUsWrapper {
+        display: inline-block;
+        width:100%;
+        height: auto;
+        background-image: url('./specks.png');
+    }
+    .backdropSlide {
+        width: 100%;
+        height: 400px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("./amazingKids500.jpg") no-repeat;
+    }
+    #aboutUsHeader h1{
+        font-family: Montserrat,Arial,sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .aboutUsWrapper {
+    display: inline-block;
+    width:100%;
+    height: auto;
+    /* background-image: url('images/specks.png'); */
+}
+.backdropSlide {
+    width: 100%;
+    height: 215px;
+    display:block;
+    float: none;
+    background: linear-gradient(whitesmoke, transparent 50%), url("./amazingKids414.jpg") no-repeat;
+}
+.aboutUsTextWrapper{
+    margin-top: 45px;
+    padding:15px;
+    width:auto;
+}
+.aboutUsWrapper p{
+    font-size: 14px;
+    text-align: center;
+}
+#aboutUsHeader h1{
+    font-family: Montserrat,Arial,sans-serif;
+    text-align: center;
+    width: 100%;
+}
+}

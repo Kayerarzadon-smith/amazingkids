@@ -1,0 +1,201 @@
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+.footerWrapper {
+    width: 600px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: auto;
+    margin: auto;
+    /* background-image: url('images/specks.png') */
+}
+.footerLinks {
+    display: inline-block;
+    width: 310px;
+    height: auto;
+    background-color: transparent;
+}
+.footerLinks p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: azure;
+}
+.footerLinks ul {
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 12px;
+    color: azure;
+}
+.footerLinks li{
+    padding: 3.5px;
+    text-align: left;
+    color: azure;
+}
+.footerLinks li:hover{
+    color: yellowgreen;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.footerSocials {
+    float: right;
+    width: 290px;
+    height: auto;
+    background-color: transparent;
+}
+.footerSocials p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    font-size: 16px;
+    text-align: left;
+    color: azure;
+}
+.footerSocials ul {
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+.footerSocials a{
+    text-decoration: none;
+    color: azure;
+}
+.footerSocials li{
+    padding: 3.5px;
+    text-align: left;
+}
+.footerSocials li:hover{
+    color: yellowgreen;
+}
+.footerSocials img{
+    width: 24px;
+    height: 24px;
+}
+p.watermark {
+    font-size: 10px;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    color: azure;
+}
+.block2{
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+    border-radius: 100% 0px 0px 0px;
+}
+
+.sun{
+    width: 100%;
+    height: auto;
+    background-color:azure;
+    border-radius: 100%;
+}
+
+.block2 {
+    height: auto;
+}
+
+.block1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(60, 143, 0);
+    border-top-right-radius: 50%; 
+    background-image: url('./specks.png')
+}
+
+@media only screen and (max-width: 414px) {
+    .footerLinks ul {
+        margin-top: 0;
+        list-style-type: none;
+        text-align: left;
+        font-size: 12px;
+        color: azure;
+    }
+    .footerLinks p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 16px;
+        text-align: center;
+        color: azure;
+    }
+    .footerLinks li{
+        padding: 3.5px;
+        text-align: left;
+        margin-left: 10px;
+        color: azure;
+    }
+    .footerLinks li:hover{
+        color: yellowgreen;
+    }
+    .footerLinks a{
+        text-decoration: none;
+        color: azure;
+    }
+    
+    
+    .footerSocials {
+        float: right;
+        width: 290px;
+        height: auto;
+        background-color: transparent;
+    }
+    .footerSocials p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-size: 16px;
+        text-align: left;
+        color: azure;
+    }
+    .footerSocials ul {
+        margin-top: 0;
+        list-style-type: none;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .footerSocials a{
+        text-decoration: none;
+        color: azure;
+    }
+    .footerSocials li{
+        padding: 3.5px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .footerSocials li:hover{
+        color: yellowgreen;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .block1{
+        border-top-right-radius: 50%;  
+    }
+    .block2{
+        border-top-left-radius: 50%; 
+    }
+    .footerWrapper {
+        width: 300px;
+    }
+    p.watermark {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

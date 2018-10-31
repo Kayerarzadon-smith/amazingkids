@@ -1,0 +1,185 @@
+
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+/* T E S T I M O N I A L S  C O M P O N E N T  */  /* T E S T I M O N I A L S  C O M P O N E N T  */
+.testimonialsComponent {
+    width: 100%;
+    height: auto;
+    background-image: white;
+    color: black;
+}
+#testimonialsHeader {
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-size: 45px;
+    text-align: center;
+    font-family:Montserrat,Arial,sans-serif;
+}
+@media only screen and (max-width: 414px) {
+    #testimonialsHeader {
+        width: 350px;
+        height: auto;
+        margin: auto;
+        display: block;
+        font-size: 45px;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #testimonialsHeader {
+        width: 250px;
+        height: auto;
+        margin: auto;
+        display: block;
+        font-size: 45px;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+.mySlides {
+    width: 70%;
+    margin: auto;
+    margin-top: -150px;
+    margin-bottom: 5%;
+    font-size: 25px;
+    text-align: center;
+}
+.mySlidesReviewer{
+    font-size: 16px;
+}
+.w3-left{
+    cursor:pointer;
+    display:inline-block;
+} 
+.w3-badge {
+    cursor:pointer
+}
+.right-arrow{
+    cursor:pointer;
+    float: right;
+    padding-top: 200px;
+    padding-right: 5%;
+}
+.right-arrow:hover{
+    color: #1d0054a6;
+}
+.left-arrow{
+    display:inline-block;
+    padding-top: 200px;
+    /* padding-left: 5%; */
+}
+.left-arrow:hover{
+    color: #1d0054a6;
+}
+.testimonialsComponent h1 {
+    color: #1d0054a6;
+    font-size: 50px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: -60px;
+    text-align: center;
+}
+@media only screen and (max-width: 1366px) {
+    .mySlides {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+    .right-arrow{
+        padding-right: 5%;
+    }
+    .left-arrow{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .testimonialsComponent {
+        height: auto;
+    }
+    .mySlides {
+        width: 70%;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .right-arrow{
+        padding-right: 5%;
+    }
+    .left-arrow {
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 812px) {
+    .testimonialsComponent {
+        height: auto;
+    }
+    .mySlides {
+        width: 70%;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .right-arrow{
+        padding-right: 5%;
+    }
+    .left-arrow{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .testimonialsComponent {
+        width: 100%;
+        height: auto;
+        color: black;
+    }
+    .mySlides {
+        width: 70%;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+}
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width: 414px) {
+    .testimonialsComponent {
+        width: 100%;
+        height: auto;
+        color: black;
+    }
+    .mySlides {
+        width: 70%;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    .right-arrow{
+        padding-right: 5%;
+    }
+    .left-arrow{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .testimonialsComponent {
+        width: 100%;
+        height: auto;
+        color: black;
+    }
+    .mySlides {
+        width: 70%;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    .right-arrow{
+        padding-right: 5%;
+    }
+    .left-arrow{
+        padding-left: 5%;
+    }
+}

@@ -1,0 +1,30 @@
+
+.logo {
+    float: left;
+    background-color:#7036dca6;
+    color: azure;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 11px;
+    font-family:Montserrat,Arial,sans-serif;
+}
+.logo:hover {
+    float: left;
+    background-color:rgb(109, 109, 109);
+    color: azure;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 11px;
+    font-family:Montserrat,Arial,sans-serif;
+}
+
+@media only screen and (max-width: 360px) {
+    .logo {
+        font-size: 13px;
+        padding: 9px;
+    }
+    .logo:hover {
+        font-size: 13px;
+        padding: 9px;
+    }
+}

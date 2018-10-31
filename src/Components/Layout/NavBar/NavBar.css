@@ -1,0 +1,52 @@
+
+nav {
+    background: rgb(60, 143, 0);
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul {
+    margin: 0;
+    text-align: left;
+}
+.navbar li {
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.navbar a {
+    color: azure;  
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    font-family:Montserrat,Arial,sans-serif;
+}
+.navbar a:hover {
+    color: yellowgreen;  
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 360px) {
+    .navbar ul {
+        margin: 0;
+        text-align: left;
+    }
+    .navbar li {
+        margin: 10px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .navbar a {
+        font-size: 12px;
+    }
+    .navbar a:hover {
+        font-size: 12px;
+    }
+}

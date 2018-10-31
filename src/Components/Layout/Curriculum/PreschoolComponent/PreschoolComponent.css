@@ -1,0 +1,248 @@
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */  
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+.preschoolComponent {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.corriculumPreKPic {
+    width: 40%;
+    float: right;
+    margin: 0px;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to right,whitesmoke, transparent 50%), url("./preK500.jpg") no-repeat;
+}
+.corriculumPreKText {
+    width: 60%;
+    height: auto;
+    margin: 0px;
+    display: inline-block;
+    background-color: whitesmoke;
+    vertical-align: top;
+    color: #1d0054a6;
+    padding-top: 60px;
+    background-image: url('./specks.png');
+    font-family: Montserrat,Arial,sans-serif;
+}
+.corriculumPreKText h1{
+    margin-top:0;
+    padding-top: 20px;
+    color:  rgb(60, 143, 0);  
+}
+.corriculumPreKText p{
+    font-size: 20px;
+    color: grey;   
+}
+.corriculumPreKTextWrapper {
+    width:600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1366px) {
+    .corriculumPreKPic {
+        width: 47%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("./preK500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 53%;
+    }
+    .corriculumPreKTextWrapper {
+        width:450px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKText p{
+        font-size: 18px; 
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .corriculumPreKText {
+        width: 40%;
+    } 
+    .corriculumPreKText p{
+        font-size: 16px; 
+    }
+    .corriculumPreKPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("./preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKTextWrapper {
+        width:300px;
+        height: 400px;
+        margin-left: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 812px) {
+    .corriculumPreKPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("./preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 40%;
+    }
+    .corriculumPreKTextWrapper {
+        width:250px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .corriculumPreKText p{
+        font-size: 16px; 
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .corriculumPreKPic {
+        width: 61%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("./preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 39%;
+    }
+    .corriculumPreKTextWrapper {
+        width:300px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .corriculumPreKText p{
+        font-size: 17px; 
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .preschoolComponent {
+        height: auto;
+    }
+    .corriculumPreKPic {
+        width: 50%;
+        height: 300px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./preKPic375.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumPreKTextWrapper {
+        height: auto;
+    }
+    .corriculumPreKText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .preschoolComponent {
+        height: auto;
+        display:block;
+        background-image: url('./specks.png');
+    }
+    .corriculumPreKPic {
+        width: 100%;
+        height: 304px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("./preK414.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('./specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumPreKText h1{
+        text-align: center;
+    } 
+    .corriculumPreKText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+@media only screen and (max-width: 375px) {
+    .preschoolComponent {
+        height: auto;
+        display:block;
+        background-image: url('./specks.png');
+    }
+    .corriculumPreKPic {
+        width: 100%;
+        height: 300px;
+        display:block;
+        float: none;
+        margin: -1px;
+        background: linear-gradient(whitesmoke, transparent 50%), url("./preKPic375.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('./specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumPreKText h1{
+        text-align: center;
+    } 
+    .corriculumPreKText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}

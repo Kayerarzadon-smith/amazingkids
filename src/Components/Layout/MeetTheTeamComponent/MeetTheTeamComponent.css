@@ -1,0 +1,649 @@
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+/* M E E T  T H E  T E A M  C O M P O N E N E T  */  /* M E E T  T H E  T E A M  C O M P O N E N E T  */
+.meetTheTeamComponent {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: azure;
+    color: #1d0054a6;  
+    display: inline-block;
+    background-image: url('./specks.png')
+}
+
+/* O W N E R  W R A P P E R */
+/* O W N E R  W R A P P E R */
+/* O W N E R  W R A P P E R */
+/* O W N E R  W R A P P E R */
+.ownerWrapper {
+    margin: auto; 
+    width: auto;   
+}
+/* @media only screen and (max-width: 1366px) {
+    .ownerWrapper {
+        width: 800px;   
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .ownerWrapper {
+        width: 740px;    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ownerWrapper {
+        width: 600px;   
+    }
+} */
+@media only screen and (max-width: 568px) {
+    .ownerWrapper {
+        width: 504px;
+        margin: auto;
+    }
+}
+
+
+
+
+.meetTheTeamHeader {
+    margin: auto;
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: Montserrat,Arial,sans-serif;
+}
+.meetTheTeamHeader h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 812px) {
+    .meet {
+        margin: auto;
+        width: 300px;
+        height: 45px;
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+.profile {
+    margin: 20px 9px 20px 9px;
+    padding: 15px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: rgb(60, 143, 0);
+    border-radius: 10px;
+    /* background-image: url('./specks.png') */
+}
+
+.profileWrapper {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    background-image: url('./specks.png')
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {        
+   .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    }
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 300px;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        /* height: auto; */
+        width:200px;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        background-image: url('./specks.png')
+    }
+    img.ownerPicture {
+        /* display: inline-block; */
+        margin: 0px;
+        margin-left: 0px;
+        width: 250px;
+        height: 250px;
+        /* border-radius: 10px; */
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: left;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+.ownerPicture {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url('./NancyJohnson.jpg');
+    background-size: 100%;
+}
+.ownerInfo h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color:yellow;
+}
+
+.ownerInfo {
+    margin: auto;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {        
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 95%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        height: auto;
+        width: 43%;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        background-image: url('./specks.png')
+    }
+    .ownerPicture {
+        display: inline-block;
+        margin: 0px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: center;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: left;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+@media only screen and (max-width: 667px) {        
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 95%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        height: auto;
+        width: 43%;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        background-image: url('./specks.png')
+    }
+    .ownerPicture {
+        display: inline-block;
+        margin: 0px;
+        margin-left: 0px;
+        width: 260px;
+        height: 260px;
+        border-radius: 10px;
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: center;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+@media only screen and (max-width: 640px) {        
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 95%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        height: auto;
+        width: 43%;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        background-image: url('./specks.png')
+    }
+    .ownerPicture {
+        display: inline-block;
+        margin: 0px;
+        margin-left: 0px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: center;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+@media only screen and (max-width: 568px) {        
+    .ownerPicture {
+        display: inline-block;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width: 414px) {
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 90%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        /* height: auto; */
+        width: auto;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        /* background-image: url('./specks.png') */
+    }
+    .ownerPicture {
+        /* display: inline-block; */
+        margin: 0px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+        /* border-radius: 10px; */
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: left;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 90%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        /* height: auto; */
+        width: auto;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        /* background-image: url('./specks.png') */
+    }
+    img.ownerPicture {
+        /* display: inline-block; */
+        margin: 0px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+        /* border-radius: 10px; */
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: left;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    /* .meetTheTeamComponent {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        background-color: azure;
+        color: #1d0054a6;  
+        display: inline-block;
+        background-image: url('./specks.png')
+    } */
+    .ownerWrapper {
+        /* margin: auto;  */
+        width: 90%;   
+    }
+    .profile {
+        /* margin: 20px 9px 20px 9px; */
+        /* padding: 15px; */
+        /* display: inline-block; */
+        /* height: auto; */
+        width: auto;
+        /* background-color: rgb(60, 143, 0); */
+        /* border-radius: 10px; */
+        /* background-image: url('./specks.png') */
+    }
+    img.ownerPicture {
+        /* display: inline-block; */
+        margin: 0px;
+        margin-left: 0px;
+        width: 270px;
+        height: 270px;
+        /* border-radius: 10px; */
+    }
+    
+    .ownerInfo {
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 175px;
+    }
+    .ownerInfo h2 {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+        color:yellow;
+    }
+    .ownerInfo p {
+        text-align: left;
+    }
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+
+
+.ownerInfo p {
+    margin: 5px;
+    padding: 5px;
+    color:lightgray;
+    text-align: center;
+}
+
+
+
+
+p.profileStory {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 340px;
+    height: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family:Montserrat,Arial,sans-serif;
+}
+@media only screen and (max-width: 1366px) {
+    p.profileStory {
+        display: inline-block;
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    p.profileStory {
+        display: inline-block;
+        font-size: 16px;
+        width: 315px;
+        height: 75px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+@media only screen and (max-width: 768px) {
+    p.profileStory {
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: top;
+        width: 260px;
+        height: 100px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}
+@media only screen and (max-width: 568px) {
+    p.profileStory {
+        /* display: inline-block; */
+        font-size: 15px;
+        width: auto;
+        height: auto;
+        padding-right: 5px;
+        margin: 10px;
+        color: azure;
+        text-align: center;
+        font-family:Montserrat,Arial,sans-serif;
+    }
+}

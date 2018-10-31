@@ -1,0 +1,279 @@
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+.informationComponent {
+    width: 100%;
+    background-color: lightgrey;
+    height: auto;
+}
+
+.break {
+    display: none;
+}
+
+
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+.informationWrapper {
+    width: auto;
+    text-align: left;
+    padding-top: 70px;
+} 
+
+/* H O U R S  O F  O P E R A T I O N */
+/* H O U R S  O F  O P E R A T I O N */
+.hoursOfOperationWrapper {
+    display: inline-block;
+    width: auto; 
+}
+.hoursOfOperation {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+}
+.hoursOfOperation h1 {
+    display: inline-block;
+    margin-top:0px;
+    font-size: 17px;
+    margin-bottom:0px;
+    margin-right: 10px;
+    color: #1d0054a6;  
+}
+.hoursOfOperation p {
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #1d0054a6;  
+}
+
+/* L O C A T I O N  *//* L O C A T I O N  */
+/* L O C A T I O N  *//* L O C A T I O N  */
+.locationWrapper {
+    display: inline-block;
+    width: auto; 
+}
+.location {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+}
+.location h1 {
+    display: inline-block;
+    margin-top:0px;
+    font-size: 17px;
+    margin-bottom:0px;
+    margin-right: 10px;
+    color: #1d0054a6;  
+}
+.location p {
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #1d0054a6;  
+}
+/* P H O N E  N U M B E R  */
+/* P H O N E  N U M B E R  */
+.phoneNumberWrapper {
+    display: inline-block;
+    width: auto; 
+     
+}
+.phoneNumber {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+    text-align: center;  
+}
+.phoneNumber h1{
+    display: inline-block;
+    margin-top:0px;
+    font-size: 17px;
+    margin-bottom:0px;
+    text-align: center;
+    margin-right: 10px;
+    color: #1d0054a6;  
+}
+.phoneNumber p{
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #1d0054a6;  
+}
+
+
+/* IPAD PRO LANDSCAPE */
+@media only screen and (max-width: 1366px) {
+    .locationWrapper {
+        width: auto;
+        display: inline-block;
+    }
+}
+/* IPAD LANDSCAPE & IPAD PRO*/
+@media only screen and (max-width: 1024px) {
+    .location {
+        width: auto;
+    }
+
+}
+
+
+/* IPHONE X: LANDSCAPE */
+@media only screen and (max-width: 812px) {
+    .hoursOfOperation p {
+        font-size: 12px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .phoneNumber p {
+        font-size: 12px;
+    }
+}
+
+/* IPAD */
+@media only screen and (max-width: 768px) {
+    .informationWrapper {
+        width: auto;
+    }
+    .hoursOfOperationWrapper {
+        width: auto; 
+    }
+    .hoursOfOperation {
+        width: auto; 
+    }
+    .hoursOfOperation h1 {
+        font-size: 15px;
+    }
+    .hoursOfOperation p {
+        font-size: 12px;
+    }
+    .locationWrapper {
+        width: auto;
+        display: inline-block;
+    }
+    .location {
+        width: auto;
+    }
+    .location h1 {
+        font-size: 15px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .phoneNumberWrapper {
+        width: auto;
+    }
+    .phoneNumber {
+        /* margin: 5px;
+        padding: 5px; */
+        display: inline-block;
+        width: auto;
+    }
+    .phoneNumber h1 {
+        font-size: 15px;
+    }
+    .phoneNumber p {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 823px) {
+    .informationWrapper {
+        width: auto;
+    }
+    .hoursOfOperationWrapper {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #330883d2; 
+    }
+    .hoursOfOperation {
+        width: auto;
+        margin-left:30px; 
+    }
+    .locationWrapper {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #330883d2; 
+    }
+    .location {
+        width: auto;
+        margin-left:30px; 
+    }
+    .phoneNumberWrapper {
+        width: 100%;
+        text-align: left;
+    }
+    .phoneNumber {
+        width: auto;
+        margin-left:30px;
+    }
+}
+/* IPONE 5/SE */
+
+@media only screen and (max-width: 360px) {
+    .hoursOfOperation {
+        margin-left: 0px;
+    }
+    .hoursOfOperation h1{
+        margin-left: 0px;
+    }
+    .hoursOfOperationWrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .locationWrapper {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #330883d2; 
+    }
+    .location {
+        margin-left: 0px;
+    }
+    .location h1{
+        margin-right: 0px;
+    }
+    .phoneNumberWrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .phoneNumber {
+        margin-left: 0px; 
+    }
+    .phoneNumber h1{
+        margin-right: 0px;
+    }
+    .break {
+        display: block;
+    }
+    .phoneNumber h1{
+        display: inline-block;
+        margin-top:0px;
+        font-size: 15px;
+        margin-bottom:0px;
+        text-align: center;
+        color: #1d0054a6;  
+    }
+    .phoneNumber p{
+        display: inline-block;
+        margin-top:0px;
+        margin-bottom:0px;
+        text-align: center;
+        color: #1d0054a6;  
+    }
+}
+
+

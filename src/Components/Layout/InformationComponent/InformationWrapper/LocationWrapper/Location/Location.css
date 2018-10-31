@@ -1,0 +1,23 @@
+.location {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+    text-align: center; 
+}
+
+.location h1 {
+    display: inline-block;
+    margin-top:0px;
+    font-size: 20px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+.location p {
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}

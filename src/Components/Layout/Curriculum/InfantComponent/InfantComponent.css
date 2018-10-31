@@ -1,0 +1,240 @@
+.infantComponent {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+
+}
+.corriculumInfantPic {
+    width: 50%;
+    float: right;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to right,whitesmoke, transparent 40%), url("./infant500.jpg") no-repeat;
+}
+.corriculumInfantText {
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    display: inline-block;
+    background-color:whitesmoke;
+    color: #1d0054a6;
+    font-family: Montserrat, Arial,sans-serif;
+    background-image: url('./specks.png');
+    padding-top: 60px;
+}
+.corriculumInfantText h1{
+    color: rgb(60, 143, 0);
+}
+.corriculumInfantText p{
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+}
+.corriculumInfantTextWrapper {
+    width:600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .corriculumInfantPic {
+        width: 58%;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./infant500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 42%;
+    }
+    .corriculumInfantTextWrapper {
+        width:400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 18px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 1024px) {
+    .corriculumInfantPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./infant500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 40%;
+        height: 300px;
+        padding-top: 60px;
+    }
+    .corriculumInfantTextWrapper {
+        width:360px;
+        height: auto;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 17px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 823px) {
+    .infantComponent {
+        height: 500px;
+    }
+    .corriculumInfantPic {
+        width: 61%;
+        height: 500px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./infantPic500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 39%;
+    }
+    .corriculumInfantTextWrapper {
+        width:250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 16px;
+    }  
+}
+
+
+@media only screen and (max-width: 768px) {
+    .corriculumInfantPic {
+        width: 61%;
+        height: 500px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./infantPic500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 39%;
+        height: 300px;
+        padding-top: 60px;
+    }
+    .corriculumInfantTextWrapper {
+        width:300px;
+        height: auto;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 17px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 640px) {
+    .infantComponent {
+        height: auto;
+    }
+    .corriculumInfantPic {
+        width: 50%;
+        height: 300px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("./infantPic375.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumInfantTextWrapper {
+        height: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .infantComponent {
+        height: auto;
+        display:block;
+        background-image: url('./specks.png');
+    }
+    .corriculumInfantPic {
+        width: 100%;
+        height: 233px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("./infantPic414.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('./specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumInfantText h1{
+        text-align: center;
+        margin-top: 0;
+        padding-top: 20px;
+    } 
+    .corriculumInfantText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+
+@media only screen and (max-width: 375px) {
+    .infantComponent {
+        height: auto;
+        display:block;
+        background-image: url('./specks.png');
+    }
+    .corriculumInfantPic {
+        width: 100%;
+        height: 300px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("./infantPic375.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('./specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumInfantText h1{
+        text-align: center;
+    } 
+    .corriculumInfantText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}

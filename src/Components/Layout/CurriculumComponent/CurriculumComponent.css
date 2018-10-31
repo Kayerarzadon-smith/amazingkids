@@ -1,0 +1,251 @@
+  
+  
+
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+.corriculumComponent {
+    width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #1d0054a6; 
+    color: white;  
+    box-shadow: 10px #888888;
+    background-image: url('./specks.png')
+}
+.corriculumHeader {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-family:Montserrat,Arial,sans-serif;
+} 
+
+
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+.corriculumWrapper {
+    width: 1035px;
+    margin: auto;
+}
+@media only screen and (max-width: 1366px) {
+    .corriculumWrapper {
+        width: 1035px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .corriculumWrapper {
+        width: 768px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 812px) {
+    .corriculumWrapper {
+        width: 94.3%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .corriculumWrapper {
+        width: 576px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .corriculumWrapper {
+        width: 550px;
+        margin: auto;
+    }
+}
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width: 414px) {
+    .corriculumWrapper {
+        width: 278px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .corriculumWrapper {
+        width: 286px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 1366px) {
+    .programs-pictures {
+        display: inline-block;
+        margin: 10px;
+        width: 235px;
+        height: 370px;
+        border-radius: 10px;
+        /* box-shadow: 0px 4px 7px rgb(28, 28, 28); */
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .programs-pictures {
+        margin: 14px;
+        width: 225px;
+        height: 360px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .owner-picture {
+        width: 250px;
+        height: 250px;
+    }
+
+    .programs-pictures {
+        display: inline-block;
+        margin: 13px;
+        width: 162px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 7px rgb(28, 28, 28);   
+    }
+    .infant p {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .programs-pictures {
+        display: inline-block;
+        margin: 13px;
+        width: 115px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 7px rgb(28, 28, 28);   
+    }
+    .prek {
+        margin-bottom: 25px;
+    }
+    #pstext {
+        font-size: 20px;
+    }
+    .infant p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .toddler p{
+        font-size: 15px;
+    }
+    .kindergardenPrep {
+        display: inline-block;
+        width: 141px;
+        height: 281px;
+    }
+    #corriculumText {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .programs-pictures {
+        display: inline-block;
+        margin: 10px;
+        width: 110px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 7px rgb(28, 28, 28);   
+    }
+}
+@media only screen and (max-width: 414px) {
+    .programs-pictures {
+        display: inline-block;
+        margin: 10px;
+        width: 110px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: none;   
+    }
+}
+
+
+
+
+.infant {
+    display: inline-block;
+}
+.infant p {
+    text-align: center;
+    font-size: 25px;
+}
+.toddler {
+    display: inline-block;
+}
+.toddler p {
+    text-align: center;
+    font-size: 25px;
+}
+.preK{
+    display: inline-block;
+}
+.preK p{
+    text-align: center;
+    font-size: 25px;
+}
+.kindergardenPrep{
+    display: inline-block;
+    height: 236px;
+}
+.kindergardenPrep p{
+    text-align: center;
+    font-size: 25px;
+}
+.programButtonContainer {
+    width: 226px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.corriculumWrapper button {
+    background-color: #1d0054a6;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.corriculumWrapper button:hover {
+    background-color: whitesmoke;
+    border: none;
+    color: #1d0054a6;
+    border: 1px solid #1d0054a6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+        
+       
+       
+
+
+
+
+
